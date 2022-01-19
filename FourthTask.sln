@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientSideWebForms", "ClientSideWebForms\ClientSideWebForms.csproj", "{60DCDEF0-CCA5-4688-900A-E575094562BC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2C52E698-B859-4803-B63B-614538655E0D} = {2C52E698-B859-4803-B63B-614538655E0D}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfMyServiceLibrary", "WcfMyServiceLibrary\WcfMyServiceLibrary.csproj", "{2C52E698-B859-4803-B63B-614538655E0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60DCDEF0-CCA5-4688-900A-E575094562BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60DCDEF0-CCA5-4688-900A-E575094562BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60DCDEF0-CCA5-4688-900A-E575094562BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60DCDEF0-CCA5-4688-900A-E575094562BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C52E698-B859-4803-B63B-614538655E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C52E698-B859-4803-B63B-614538655E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C52E698-B859-4803-B63B-614538655E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C52E698-B859-4803-B63B-614538655E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2977E641-7FDC-4A9C-A8D3-7B5F8617214F}
+	EndGlobalSection
+EndGlobal
